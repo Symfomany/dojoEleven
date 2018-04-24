@@ -2,7 +2,6 @@ function moveZeros(tab = []) {
   //const filtre = tab.filter(elt => elt !== false && elt !== true);
   const filtre = tab.filter(elt => typeof elt !== "boolean");
   const filtreZero = filtre.filter(elt => elt === 0);
-
   const diffTabs = filtre.filter(x => !filtreZero.includes(x));
   //console.log(diffTabs);
 
