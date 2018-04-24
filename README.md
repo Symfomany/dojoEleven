@@ -1,4 +1,4 @@
-## Dojo 1: Moving Zeros To The End (Facile: Niveau 6)
+## Dojo 1: Moving Zeros To The End (Moyen: Niveau 6)
 
 Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements and remove boolean.
 
@@ -6,7 +6,7 @@ Write an algorithm that takes an array and moves all of the zeros to the end, pr
     moveZeros([false,1,0,1,2,0,1,true,0,3,"a"]) // returns[1,1,2,1,3,"a",0,0,0]
 ```
 
-## Dojo 2: Composing functions (Moyen: Niveau 5)
+## Dojo 2: Composing functions (Dur: Niveau 5)
 
 This time we want to write calculations using functions and get the results.
 Let's have a look at some examples:
@@ -24,4 +24,4 @@ _Requirements:_
   plus, minus, times, dividedBy
 
 Each calculation consist of exactly one operation and two numbers.
-The most outer function represents the left operand, the most inner function represents the right operand.
+The most outer function represents the left operand, the most inner function represents the right operand
